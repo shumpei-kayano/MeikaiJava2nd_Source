@@ -6,7 +6,7 @@ class Account {
 	private String no;			// 口座番号
 	private long balance;		// 預金残高
 
-	//--- コンストラクタ ---//
+	//コンストラクタ クラスメイト同じメソッド
 	Account(String n, String num, long z) {
 		name = n;				// 口座名義
 		no = num;				// 口座番号
