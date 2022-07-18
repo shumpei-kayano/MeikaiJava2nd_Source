@@ -17,6 +17,7 @@ class BitwiseOperation {
 		System.out.print("a : ");   int a = stdIn.nextInt();
 		System.out.print("b : ");   int b = stdIn.nextInt();
 
+		//論理演算
 		System.out.print(  "a     = ");  printBits(a);
 		System.out.print("\nb     = ");  printBits(b);
 		System.out.print("\na & b = ");  printBits(a & b);	// 論理積
