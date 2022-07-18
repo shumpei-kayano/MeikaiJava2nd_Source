@@ -5,6 +5,7 @@ import java.util.Arrays;
 class Matrix {
 
 	public static void main(String[] args) {
+		// 多次元配列1
 		int[][] a = { {1, 2, 3}, {4, 5, 6} };
 		int[][] b = { {6, 3, 4}, {5, 1, 2} };
 		int[][] c = { {0, 0, 0}, {0, 0, 0} };
