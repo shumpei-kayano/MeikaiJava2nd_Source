@@ -1,7 +1,7 @@
 // 銀行口座クラス【第３版】
 
 public class Account {
-
+	//クラス変数 静的フィールド
 	private static int counter = 0;		// 何番までの識別番号を与えたか
 
 	private String name;		// 口座名義
