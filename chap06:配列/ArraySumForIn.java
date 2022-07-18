@@ -9,6 +9,7 @@ class ArraySumForIn {
 			System.out.println("a[" + i + "] = " + a[i]);
 
 		double sum = 0;		// 合計
+		//拡張for文
 		for (double i : a)
 			sum += i;
 
