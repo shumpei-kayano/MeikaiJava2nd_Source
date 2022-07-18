@@ -5,6 +5,7 @@ import java.util.Scanner;
 class GenIdxArray {
 
 	//--- 全要素がインデックスと同じ値をもつ要素数nの配列を生成して返却 ---//
+	//配列を返却するメソッド
 	static int[] idxArray(int n) {
 		int[] a = new int[n];			// 要素数nの配列
 		for (int i = 0; i < n; i++)
