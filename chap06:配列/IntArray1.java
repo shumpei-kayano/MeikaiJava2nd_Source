@@ -3,7 +3,8 @@
 class IntArray1 {
 
 	public static void main(String[] args) {
-		int[] a = new int[5];	// 配列の宣言
+		// 配列の宣言
+		int[] a = new int[5];	
 
 		a[1] = 37;						// a[1]に37を代入
 		a[2] = 51;						// a[2]に51を代入
