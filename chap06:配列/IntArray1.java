@@ -3,7 +3,7 @@
 class IntArray1 {
 
 	public static void main(String[] args) {
-		// 配列の宣言
+		// 配列の宣言 暗黙裏に0で初期化される
 		int[] a = new int[5];	
 
 		a[1] = 37;						// a[1]に37を代入
