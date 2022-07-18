@@ -11,6 +11,7 @@ class Account {
 class AccountTester {
 
 	public static void main(String[] args) {
+		//インスタンス生成
 		Account adachi = new Account();		// 足立君の口座
 		Account nakata = new Account();		// 仲田君の口座
 
@@ -26,6 +27,7 @@ class AccountTester {
 		nakata.balance += 100;						// 仲田君が100円預ける
 
 		System.out.println("■足立君の口座");
+		//メンバアクセス
 		System.out.println("　口座名義：" + adachi.name);
 		System.out.println("　口座番号：" + adachi.no);
 		System.out.println("　預金残高：" + adachi.balance);
