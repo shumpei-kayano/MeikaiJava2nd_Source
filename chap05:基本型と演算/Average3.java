@@ -11,7 +11,7 @@ class Average3 {
 		System.out.print("xの値：");  int x = stdIn.nextInt();
 		System.out.print("yの値：");  int y = stdIn.nextInt();
 
-		double ave = (double)(x + y) / 2;												// 平均値
+		double ave = (double)(x + y) / 2; //キャスト演算子
 		System.out.println("xとyの平均値は" + ave + "です。");	// 表示
 	}
 }
