@@ -10,7 +10,7 @@ class Min2Cond1 {
 		System.out.print("整数a：");  int a = stdIn.nextInt();
 		System.out.print("整数b：");  int b = stdIn.nextInt();
 
-		int min = a < b ? a : b;		// 小さいほうの値
+		int min = a < b ? a : b;		// 3項演算子
 		System.out.println("小さいのは" + min + "です。");
 	}
 }
