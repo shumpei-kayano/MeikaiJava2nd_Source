@@ -19,7 +19,7 @@ class SumGroup1 {
 				System.out.print("整数：");
 				int t = stdIn.nextInt();
 				if (t == 99999)
-					break Outer;
+					break Outer; //ラベル付きbreak文
 				else if (t == 88888)
 					break Inner;
 				sum += t;
