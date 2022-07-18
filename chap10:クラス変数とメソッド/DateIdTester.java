@@ -8,6 +8,7 @@ class DateId {
 
 	private int id;					// 識別番号
 
+	//クラス初期化子 静的初期化子 現在時刻でコンストラクタ
 	static {
 		GregorianCalendar today = new GregorianCalendar();
 		int y = today.get(YEAR);				// 年
