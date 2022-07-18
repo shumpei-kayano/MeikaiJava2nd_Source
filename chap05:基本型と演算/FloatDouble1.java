@@ -1,4 +1,5 @@
 // float型とdouble型の精度が有限であることを確認
+// float型とdouble型
 
 class FloatDouble1 {
 
