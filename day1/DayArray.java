@@ -11,13 +11,14 @@ class DayArray {
 		System.out.print("日付は何個：");
 		int n = stdIn.nextInt();
 
+		//Day型の配列
 		Day[] a = new Day[n];				// 要素数n個のDay型配列
 
 		for (int i = 0; i < a.length; i++)
 			a[i] = new Day(2027, 10, 15);
 
 		for (int i = 0; i < a.length; i++)
-			System.out.println("a[" + i + "] = "        + a[i].getYear() + "年"
+			System.out.println("a[" + i + "] = " + a[i].getYear() + "年"
 												 + a[i].getMonth() + "月" + a[i].getDate() + "日("
 												 + wd[a[i].dayOfWeek()] + ")");
 	}
