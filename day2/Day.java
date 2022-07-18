@@ -5,7 +5,7 @@ public class Day {
 	private int month;		// 月
 	private int date;			// 日
 
-	//--- コンストラクタ ---//
+	//--- コンストラクタ オーバーロード---//
 	public Day()                              { set(1, 1, 1); }
 	public Day(int year)                      { set(year, 1, 1); }
 	public Day(int year, int month)           { set(year, month, 1); }
