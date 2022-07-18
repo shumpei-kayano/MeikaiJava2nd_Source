@@ -5,6 +5,7 @@ import java.util.Scanner;
 class Sum {
 
 	//--- ２個以上の整数の総和を求める ---//
+	//可変個仮引数
 	static int sum(int a, int b, int... no)  {
 		int s = a + b;
 		for (int i = 0; i < no.length; i++)
@@ -12,7 +13,7 @@ class Sum {
 		return s;
 	}
 
-	public static void main(String... args) {
+	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
 		System.out.println("sum(1, 2)          = " + sum(1, 2));
