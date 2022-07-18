@@ -10,7 +10,7 @@ class PutAsteriskFor1 {
 		System.out.print("何個*を表示しますか：");
 		int n = stdIn.nextInt();
 
-		for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; i++) //for文
 			System.out.print('*');
 		System.out.println();
 	}
