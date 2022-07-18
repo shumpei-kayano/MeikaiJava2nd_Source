@@ -16,6 +16,7 @@ class ShiftOperation {
 		System.out.print("整数：");								int x = stdIn.nextInt();
 		System.out.print("シフトするビット数：");	int n = stdIn.nextInt();
 
+		//シフト演算
 		System.out.print(  "整数    = ");  printBits(x);
 		System.out.print("\nx <<  n = ");  printBits(x << n);
 		System.out.print("\nx >>  n = ");  printBits(x >> n);
