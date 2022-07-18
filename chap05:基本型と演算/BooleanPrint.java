@@ -1,5 +1,5 @@
 // 関係演算子・等価演算子・論理否定演算子が生成する値を表示
-
+// Boolean 論理型
 import java.util.Scanner;
 
 class BooleanPrint {
