@@ -8,6 +8,7 @@ public class Car {
 	private double x;					// 現在位置Ｘ座標
 	private double y;					// 現在位置Ｙ座標
 	private double fuel;			// 残り燃料
+	// クラス型のフィールド
 	private Day purchaseDay;	// 購入日
 
 	//--- コンストラクタ ---//
