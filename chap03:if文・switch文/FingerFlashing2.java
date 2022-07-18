@@ -10,6 +10,7 @@ class FingerFlashing2 {
 		System.out.print("手を選べ（0…グー／1…チョキ／2…パー）：");
 		int hand = stdIn.nextInt();
 
+		//switch文
 		switch (hand) {
 		 case 0 : System.out.println("グー");   break;
 		 case 1 : System.out.println("チョキ"); break;
