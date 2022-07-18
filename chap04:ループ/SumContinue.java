@@ -17,7 +17,7 @@ class SumContinue {
 			int t = stdIn.nextInt();
 			if (t < 0) {
 				System.out.println("負の数は加算しません。");
-				continue;
+				continue; //continue文
 			}
 			sum += t;
 		}
