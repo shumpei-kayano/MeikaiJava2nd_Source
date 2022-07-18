@@ -15,6 +15,7 @@ class Array2D {
 		System.out.print("列数：");
 		int w = stdIn.nextInt();		// 列数を読み込む
 
+		// 多次元配列1
 		int[][] x = new int[h][w];
 
 		for (int i = 0; i < h; i++)
