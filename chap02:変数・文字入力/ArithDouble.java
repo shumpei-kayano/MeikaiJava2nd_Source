@@ -1,5 +1,12 @@
 // 二つの実数値を読み込んで加減乗除した値を表示
 
+/*
+ * nextBoolean()
+ * nextInt()
+ * nextDouble()
+ * next() String型の文字列を読み込む
+ */
+
 import java.util.Scanner;
 
 class ArithDouble {
