@@ -9,7 +9,7 @@ class Car {
 	private double y;			// 現在位置Ｙ座標
 	private double fuel;	// 残り燃料
 
-	//--- コンストラクタ ---//
+	//コンストラクタ this
 	Car(String name, int width, int height, int length, double fuel) {
 		this.name = name;			this.width = width;		this.height = height;
 		this.length = length;	this.fuel = fuel;
