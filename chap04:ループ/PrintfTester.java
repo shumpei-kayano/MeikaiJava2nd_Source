@@ -1,5 +1,5 @@
 // System.out.printfのテストプログラム
-
+// printfメソッド 書式文字列
 class PrintfTester {
 
 	public static void main(String[] args) {
