@@ -9,6 +9,7 @@ class Season {
 
 		int retry;			// もう一度？
 
+		//do-while文
 		do {
 			System.out.print("季節を求めます。\n何月ですか：");
 			int month = stdIn.nextInt();
